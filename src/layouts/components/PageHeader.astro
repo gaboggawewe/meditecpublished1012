@@ -1,0 +1,35 @@
+---
+import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
+const { page_data } = Astro.props || {};
+const { title, index_title, page_title, slug, content } = page_data || {};
+---
+
+<div class="text-center">
+  <h1
+    class="mb-5 mt-8"
+    set:html={markdownify(
+      page_data?.page_title ? page_data?.page_title : page_data?.title
+    )}
+  />
+  <p set:html={markdownify(content)} />
+
+  {
+    page_data.buttons && (
+      <div class="mt-11 justify-center sm:flex">
+        {page_data.buttons.map(
+          (button: any) =>
+            button?.enable && (
+              <a
+                class={`btn m-3 block sm:inline-block ${
+                  button?.outline ? "btn-outline-primary" : "btn-primary"
+                } `}
+                href={button?.link}
+              >
+                {button?.label}
+              </a>
+            )
+        )}
+      </div>
+    )
+  }
+</div>

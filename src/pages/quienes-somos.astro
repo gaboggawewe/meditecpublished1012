@@ -1,0 +1,29 @@
+---
+import FeatureBanner from "@/components/quienes-somos/FeatureBanner.astro";
+import ProjecManagement from "@/components/quienes-somos/ProjecManagement.astro";
+import Shape from "@/components/Shape.astro";
+import OurMembers from "@/components/quienes-somos/OurMembers.astro";
+import Base from "@/layouts/Base.astro";
+import Cta from "@/layouts/partials/Cta.astro";
+import { getEntryBySlug } from "astro:content";
+
+const quienesSomos = await getEntryBySlug("quienes-somos", "index");
+const {members } = quienesSomos.data;
+---
+
+<Base
+  title={quienesSomos.data.title}
+  meta_title={quienesSomos.data.meta_title}
+  description={quienesSomos.data.description}
+  image={quienesSomos.data.image}
+>
+  <Shape />
+  <section class="page-hero py-16">
+    <div class="container -mt-16">
+      <div class="page-hero-content mx-auto max-w-[768px] text-center">
+      <OurMembers members={members} />
+    </div>
+  </section>
+  <ProjecManagement features={quienesSomos.data} />
+
+</Base>

@@ -1,0 +1,49 @@
+{
+  "site": {
+    "title": "Meditec",
+    "base_url": "https://pinwheel-astro.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/logo_azul_sin_fondo.png",
+    "logo_width": "147",
+    "logo_height": "147",
+    "logo_text": "Meditec"
+  },
+
+  "settings": {
+    "pagination": 6,
+    "summary_length": 100,
+    "blog_folder": "blog"
+  },
+
+  "call_to_action": {
+    "title": "Helping teams in the world with focus",
+    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "button": {
+      "label": "Download The Theme",
+      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+    }
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "themefisher-template",
+    "settings": {}
+  },
+
+  "params": {
+    "footer_description": "Brindamos asesoría médica gratuita ¡Conócenos!",
+    "email": "general@meditecccm.com",
+    "location": "Prol. Canal de Miramontes, Coapa, San Bartolo el Chico, Tlalpan, 14380 Ciudad de México",
+    "phone": "55 3566 7327",
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "pinwheel astro"
+  }
+}

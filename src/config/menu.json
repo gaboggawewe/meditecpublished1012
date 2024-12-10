@@ -1,0 +1,57 @@
+{
+  "main": [
+    {
+      "name": "Inicio",
+      "url": "/"
+    },
+    {
+      "name": "Impacto",
+      "url": "/impacto"
+    },
+    {
+      "name": "Patrocinadores",
+      "url": "/patrocinadores"
+    },
+    {
+      "name": "Quiénes somos",
+      "url": "/quienes-somos"
+    },
+    {
+      "name": "Agenda",
+      "url": "/agenda"
+    }
+ 
+    ,
+    {
+      "name": "Contacto",
+      "url": "/contacto"
+    }
+  ],
+
+  "footer": [
+    {
+      "name": "Inicio",
+      "url": "/"
+    },
+    {
+      "name": "Impacto",
+      "url": "/impacto"
+    },
+    {
+      "name": "Patrocinadores",
+      "url": "/blog"
+    },
+    {
+      "name": "Quiénes somos",
+      "url": "/quienes-somos"
+    },
+    {
+      "name": "Agenda",
+      "url": "/agenda"
+    },
+    {
+      "name": "Contacto",
+      "url": "/contacto"
+    }
+  ]
+}

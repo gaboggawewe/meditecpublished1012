@@ -1,0 +1,26 @@
+Requerimientos de la página:
+https://www.canva.com/design/DAGUDKhu9OA/2aH48J699BlEYODGX2vSkg/edit?utm_content=DAGUDKhu9OA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
+Fotos individuales del equipo:
+https://drive.google.com/drive/folders/18S4WrGZ_yERfDbCF3X9oHtIiyQtuAv9E
+
+
+Fotos del equipo:
+https://drive.google.com/drive/folders/1eQDZsCbhhdwNenzPdPYJYVjNfYWCitr0
+
+
+Fotos del evento y logos:
+https://drive.google.com/drive/folders/1qYgnCbdtE3vIMoaC2IpBiHoAxB8isf8R
+
+
+
+
+parte de layouts->components->quienes-somos->projectManagement.astro q ya no uso:
+  
+ <FeatureService feature_service={feature_service} />
+    <FeatureTab client:load feature_tab={feature_tab} />
+
+en quienes-smomos.astro:
+
+  <Cta />
